@@ -7,6 +7,8 @@ published: true
 "You must be mad or you wouldn’t have come here.” 
 
 ![_config.yml]({{ site.baseurl }}/images/step1.gif)
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
 
 
 
