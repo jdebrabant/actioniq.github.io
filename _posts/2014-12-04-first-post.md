@@ -7,7 +7,7 @@ published: true
 "You must be mad or you wouldn’t have come here.” 
 
 ![_config.yml]({{ site.baseurl }}/images/step1.gif)
-![_config.yml]({{ site.baseurl }}/images/escher-metamorphose.png)
+
 
 
 _posts/escher-metamorphose.png
