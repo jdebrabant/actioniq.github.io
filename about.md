@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-ActionIQ is a stealth startup building the next generation of data-driven business applications. It is based in New York City and funded by top investors including Sequoia Capital and First Mark Capital.
+ActionIQ is a stealth startup building the next generation of data-driven business applications. It is based in New York City and funded by top investors including [Sequoia Capital](http://www.sequoiacap.com/) and [First Mark Capital](http://firstmarkcap.com/).
 
 The company is founded by [Tasso Argyros](https://www.linkedin.com/in/tasso), founder and CTO of [Aster Data](http://www.teradata.com/Teradata-Aster/overview/), a Big Data pioneer that was acquired by database leader Teradata; and [Nitay Joffe](https://www.linkedin.com/in/nitayj), a key developer in leading open source big data projects such as [Apache HBase](http://hbase.apache.org/) and [Apache Giraph](hhttp://giraph.apache.org/) while working at places like Facebook, Powerset and Google. Both Tasso & Nitay have extensive experience applying complex technologies to solve real business challenges.
 
