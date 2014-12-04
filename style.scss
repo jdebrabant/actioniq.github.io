@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $white;
-  font: 18px/1.4 $Courier;
+  font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
 
@@ -69,11 +69,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: $red;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $red;
   }
 }
 
