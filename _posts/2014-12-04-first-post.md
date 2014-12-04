@@ -6,7 +6,7 @@ published: true
 
 "You must be mad or you wouldn’t have come here.” 
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](http://uploads4.wikiart.org/images/m-c-escher/stars.jpg "Logo Title Text 1")
 
 
 “Begin at the beginning, and go on till you come to the end: then stop.”
