@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Am I up and running?"
+title: "Would you tell me, please, which way I ought to go from here?"
 published: true
 ---
 
