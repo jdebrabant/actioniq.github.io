@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Would you tell me, please, which way I ought to go from here?"
+published: true
+---
+
+"You must be mad or you wouldn’t have come here.” 
+
+![](/actioniq.github.io/images/config.png)
+
+“Begin at the beginning, and go on till you come to the end: then stop.”
