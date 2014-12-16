@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Marketing is Data and Data is Marketing"
+published: false
+---
+
 # Data = Marketing & Marketing = Data
 	
 For the past 10 years there has been a revolution in Marketing. This trend has accelerated the past couple of years at breathtaking speed and there are no signs of slowing down. At the core of it, Marketing is becoming a science and art around data. In fact, this is probably the most interesting time to be in the intersection of Markeing and Technology since the invention of the printing press.  
