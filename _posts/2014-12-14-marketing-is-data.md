@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Marketing is Data and Data is Marketing"
-published: false
+published: true
 ---
 
 # Data = Marketing & Marketing = Data
