@@ -10,9 +10,6 @@ The company is founded by [Tasso Argyros](https://www.linkedin.com/in/tasso), fo
 
 At ActionIQ, we are working on a very tall technology stack: we are thinking about web-based responsive UX the one minute and how to minimize CPU cache misses via bytecode generation the other. We like to do everything in-memory. We are using a number of languages, tools and frameworks, including Scala. We love hard systems/performance & algorithmic problems.
 
-This is an opportunity to join an ambitious, world-class team in NYC and become part of something truly unique from early on.
-
-We always have room for world-class, exceptional engineers. If your background does not fit our advertised positions but you are excited about our team and vision, feel free to send us a note anyway. 
 
 ### We are hiring!
 
