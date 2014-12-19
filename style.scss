@@ -188,23 +188,20 @@ img {
 
   position: absolute;
   content: ' ';
-  top: 15px;
-  left: 92px;
-  border: 1px solid #EEE;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(200,200,200,0.5);
   width: 0px;
-  height: 0px;
-  border-radius: 50%;
+  height: 100%;
   transition: all 0.2s ease-in;
-  z-index: -1;
+  z-index: 2;
 
 
 }
 
 .site-avatar:hover:after {
-  top: 6px;
-  left: 83px;
-  width: 18px;
-  height: 18px;
+  width: 100%;
+
 
 }
 
