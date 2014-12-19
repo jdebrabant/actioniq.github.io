@@ -184,7 +184,8 @@ img {
 
 }
 
-.site-avatar::after {
+.site-avatar:after {
+
   position: absolute;
   top: 15px;
   left: 92px;
@@ -197,15 +198,15 @@ img {
 
 
 }
-
-.site-avatar:hover::after {
+/*
+.site-avatar:hover:after {
   top: 6px;
   left: 83px;
   width: 18px;
   height: 18px;
 
 }
-
+*/
 
 
 
