@@ -180,23 +180,25 @@ img {
     border-radius: 5px;
   }
 
-  .circle {
-    position: absolute;
-    top: 15px;
-    left: 92px;
-    /*border: 1px solid #EEE;*/
-    width: 0px;
-    height: 0px;
-    border-radius: 50%;
-    transition: all 0.2s ease-in;
-    z-index: -1;
 
-
-  }
 
 }
 
-.site-avatar:hover .circle {
+.site-avatar img:after {
+  position: absolute;
+  top: 15px;
+  left: 92px;
+  border: 1px solid #EEE;
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+  z-index: -1;
+
+
+}
+
+.site-avatar:hover img:after {
   top: 6px;
   left: 83px;
   width: 18px;
