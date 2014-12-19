@@ -193,7 +193,8 @@ img {
   background-color: rgba(255,255,255,0.3);
   width: 0px;
   height: 100%;
-  transition: all 0.2s ease-in;
+  transition: width 0.1s ease-in;
+  transition: left 0.3s ease-in;
   z-index: 2;
 
 
@@ -201,6 +202,7 @@ img {
 
 .site-avatar:hover:after {
   width: 100%;
+  left:100%;
 
 
 }
