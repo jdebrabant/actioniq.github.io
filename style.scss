@@ -173,7 +173,7 @@ img {
   }
 
   &:hover{
-  //  opacity: 0.9;
+    opacity: 0.9;
   }
 
   img {
@@ -184,7 +184,7 @@ img {
     position: absolute;
     top: 15px;
     left: 92px;
-    border: 1px solid #EEE;
+    /*border: 1px solid #EEE;*/
     width: 0px;
     height: 0px;
     border-radius: 50%;
