@@ -187,6 +187,7 @@ img {
 .site-avatar:after {
 
   position: absolute;
+  content: ' ';
   top: 15px;
   left: 92px;
   border: 1px solid #EEE;
@@ -198,7 +199,7 @@ img {
 
 
 }
-/*
+
 .site-avatar:hover:after {
   top: 6px;
   left: 83px;
@@ -206,7 +207,7 @@ img {
   height: 18px;
 
 }
-*/
+
 
 
 
