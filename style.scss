@@ -182,13 +182,14 @@ img {
 
   .circle {
     position: absolute;
-    top: 10px;
-    left: 87px;
-    background-color: #ccc;
+    top: 15px;
+    left: 92px;
+    border: 1px solid #EEE;
     width: 0px;
     height: 0px;
-    border-radius: 9px;
-    transition: all 0.5s ease-out;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+    z-index: -1;
 
 
   }
