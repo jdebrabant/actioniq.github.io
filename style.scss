@@ -5,8 +5,8 @@
 // IMPORTS
 //
 
-@import "_reset";
-@import "_variables";
+@import "reset";
+@import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -109,6 +109,11 @@ strong, b {
 
 img {
   max-width: 100%;
+}
+
+// Fixes images in popup boxes from Google Translate
+.gmnoprint img {
+  max-width: none;
 }
 
 .date {
@@ -316,4 +321,5 @@ footer {
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "_highlights";
+@import "highlights";
+@import "svg-icons";

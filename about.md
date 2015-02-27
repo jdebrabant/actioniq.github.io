@@ -10,7 +10,6 @@ The company is founded by [Tasso Argyros](https://www.linkedin.com/in/tasso), fo
 
 At ActionIQ, we are working on a very tall technology stack: we are thinking about web-based responsive UX the one minute and how to minimize CPU cache misses via bytecode generation the other. We like to do everything in-memory. We are using a number of languages, tools and frameworks, including Scala. We love hard systems/performance & algorithmic problems.
 
-
 ### We are hiring!
 
 [https://actioniq.workable.com/](https://actioniq.workable.com/)
