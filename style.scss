@@ -36,9 +36,14 @@ body {
     background-color:#191b1f;
     box-shadow: 0px 2px 2px #000000;
   }
+}
 
-  .nav-text {
-    color:#ffffff;
+.about {
+  background: url("images/about-bg.png") 0 120px no-repeat;
+  background-size: 100% auto;
+
+  .text{
+    background-color:rgba(255, 255, 255, 0.2);
   }
 }
 
