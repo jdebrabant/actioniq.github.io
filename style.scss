@@ -26,18 +26,21 @@ body {
 }
 
 .index {
+  background: url("images/body-bg.png") 0 50px no-repeat;
   background-color: $blue;
+  background-size: 100% auto;
   #main{
     color:#ffffff;
   }
 }
 
 .copy p{
-  font-weight:200;
+  font-weight:100;
+  font-size:21px;
 }
 
 .wrap {
-  min-height: 80%;
+  min-height: 100%;
 
 }
 .container {
@@ -68,6 +71,7 @@ h1 {
 
 h2 {
   font-size: 36px;
+  font-weight:500;
 }
 
 h3 {
@@ -165,10 +169,8 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
-
-
-  background-color: white;
-  box-shadow: 5px 5px 5px #eee;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 2px #70a2c8;
 
 
 
@@ -191,6 +193,7 @@ img {
   margin-right: 15px;
   transition: all 0.5s linear;
   position: relative;
+  background: url(../images/blog-logo.png) 0 0 no-repeat;
 
   @include mobile {
     float: none;
@@ -217,7 +220,7 @@ img {
   content: ' ';
   top: 0px;
   left: 0px;
-  background-color: rgba(255,255,255,0.4);
+  // background-color: rgba(255,255,255,0.4);
   width: 0px;
   height: 100%;
   transition: width 0.3s ease-in, left 0.4s ease-in;
@@ -238,12 +241,6 @@ img {
   overflow-y: auto;
   overflow-x: hidden;
 }
-
-
-
-
-
-
 
 
 .site-info {
@@ -279,7 +276,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: roboto;
   font-size: 18px;
 
   @include mobile {
@@ -291,9 +288,9 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $blue;
     text-align: right;
-    font-weight: 300;
+    font-weight: 500;
     letter-spacing: 1px;
 
     @include mobile {
@@ -343,6 +340,7 @@ nav {
   height: 100px;
   clear:both;
   text-align:center;
+  background-color:#ffffff;
 
 }
 
@@ -352,7 +350,20 @@ footer {
 
 }
 
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  /* Retina-specific stuff here */
+
+  .site-avatar {
+    background-image: url(../images/blog-logo2x.png);
+    background-size: 152px 42px;
+  }
+
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+
 @import "highlights";
 @import "svg-icons";
