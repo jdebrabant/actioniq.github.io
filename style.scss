@@ -15,14 +15,31 @@
 
 html {
   font-size: 100%;
+  height: 100%;
 }
 
 body {
 	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+  font: 18px/1.4 roboto;
+  font-family:roboto, $helvetica;
+  height: 100%;
 }
 
+.index {
+  background-color: $blue;
+  #main{
+    color:#ffffff;
+  }
+}
+
+.copy p{
+  font-weight:200;
+}
+
+.wrap {
+  min-height: 80%;
+
+}
 .container {
   margin: 0 auto;
   max-width: 740px;
@@ -31,10 +48,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
-  font-weight: bold;
-
+  font-weight: meduim;
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
@@ -53,7 +67,7 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 36px;
 }
 
 h3 {
@@ -62,7 +76,6 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $gray;
 }
 
 p {
@@ -152,16 +165,24 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+
+
+  background-color: white;
+  box-shadow: 5px 5px 5px #eee;
+
+
+
 }
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+
 
   @include mobile {
     text-align: center;
   }
 }
+
 
 .site-avatar {
   float: left;
@@ -183,6 +204,7 @@ img {
 
   img {
     border-radius: 5px;
+    margin-left: -10px
   }
 
 
@@ -211,6 +233,11 @@ img {
 
 }
 
+#main {
+  padding-bottom:250px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
 
 
 
@@ -311,12 +338,18 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 50px;
+  position: relative;
+  margin-top: -100px; /* negative value of footer height */
+  height: 100px;
+  clear:both;
+  text-align:center;
+
 }
 
 footer {
   padding: 20px 0;
-  text-align: center;
+  //text-align: center;
+
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
