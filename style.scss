@@ -26,10 +26,18 @@ body {
 }
 
 .index {
-  background: url("images/body-bg.png") 0 50px no-repeat;
-  background-color: $blue;
+  background: url("images/body-bg.png") 0 120px no-repeat;
+  background-color: #000000;
   background-size: 100% auto;
   #main{
+    color:#ffffff;
+  }
+  .wrapper-masthead{
+    background-color:#191b1f;
+    box-shadow: 0px 2px 2px #000000;
+  }
+
+  .nav-text {
     color:#ffffff;
   }
 }
@@ -37,10 +45,13 @@ body {
 .copy p{
   font-weight:100;
   font-size:21px;
+  color:#a5a7aa;
+  text-align:center;
 }
 
 .wrap {
   min-height: 100%;
+
 
 }
 .container {
@@ -70,8 +81,10 @@ h1 {
 }
 
 h2 {
-  font-size: 36px;
-  font-weight:500;
+  font-size: 42px;
+  font-weight:300;
+  margin-top:100px;
+  text-align:center;
 }
 
 h3 {
@@ -84,14 +97,16 @@ h4 {
 
 p {
   margin: 15px 0;
+  font-weight:300;
+  line-height: 1.5;
 }
 
 a {
-  color: #14a0d6;
+  color: $blue;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: #14a0d6;
+    color: $blue;
   }
 }
 
@@ -163,6 +178,8 @@ img {
 /* LAYOUT / SECTIONS */
 /*********************/
 
+
+
 //
 // .masthead
 //
@@ -170,7 +187,7 @@ img {
 .wrapper-masthead {
   margin-bottom: 50px;
   background-color: #ffffff;
-  box-shadow: 0px 2px 2px #70a2c8;
+  box-shadow: 0px 2px 2px #e1e1e1;
 
 
 
@@ -193,7 +210,7 @@ img {
   margin-right: 15px;
   transition: all 0.5s linear;
   position: relative;
-  background: url(../images/blog-logo.png) 0 0 no-repeat;
+  background: url(../images/blog-logo.png) 0 10px no-repeat;
 
   @include mobile {
     float: none;
@@ -288,7 +305,8 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $blue;
+    font-size:14px;
+    color: #a5a7aa;
     text-align: right;
     font-weight: 500;
     letter-spacing: 1px;
@@ -340,7 +358,7 @@ nav {
   height: 100px;
   clear:both;
   text-align:center;
-  background-color:#ffffff;
+  background-color:#191b1f;
 
 }
 
