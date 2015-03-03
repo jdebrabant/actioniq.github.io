@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Data = Marketing & Marketing = Data"
-published: true
 date: 02/16/2015
 ---
 
