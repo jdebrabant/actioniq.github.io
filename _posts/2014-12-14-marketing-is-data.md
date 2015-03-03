@@ -1,5 +1,6 @@
 ---
 layout: post
+author: tasso_argyros
 title: "Data = Marketing & Marketing = Data"
 published: true
 ---
