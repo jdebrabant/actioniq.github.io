@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Data = Marketing & Marketing = Data"
-date: 02/16/2015
+date: 2015-02-16
 ---
 
 
