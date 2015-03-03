@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Adaptive Range Filters"
+title: "Adaptive Range Filter (ARF)"
 published: true
 date: 2015-03-02
 ---
