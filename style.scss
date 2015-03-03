@@ -38,6 +38,22 @@ body {
   }
 }
 
+.join-us{
+  font-weight:400;
+  margin:50px auto;
+  text-align:center;
+  border: 1px solid rgba(26, 159, 213, 0.5);
+  padding: 10px 40px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.join-us:hover{
+  border: 1px solid rgba(26, 159, 213, 0.8);
+  a{text-decoration:none;}
+
+}
+
 .about {
   background: url("images/about-bg.png") 0 120px no-repeat;
   background-size: 100% auto;
@@ -56,9 +72,9 @@ body {
 
 .wrap {
   min-height: 100%;
-
-
 }
+
+
 .container {
   margin: 0 auto;
   max-width: 740px;
@@ -86,7 +102,7 @@ h1 {
 }
 
 h2 {
-  font-size: 42px;
+  font-size: 36px;
   font-weight:300;
   margin-top:100px;
   text-align:center;
