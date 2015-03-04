@@ -55,6 +55,15 @@ body {
 
 }
 
+.blog {
+  background: url("images/about-bg.png") 0 120px no-repeat;
+  background-size: 100% auto;
+
+  .posts{
+    background-color:rgba(255, 255, 255, 0.6);
+  }
+}
+
 .about {
   background: url("images/about-bg.png") 0 120px no-repeat;
   background-size: 100% auto;
