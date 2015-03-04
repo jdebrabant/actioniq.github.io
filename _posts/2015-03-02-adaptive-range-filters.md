@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Adaptive Range Filter (ARF)"
+author: nitay_joffe
 published: true
 date: 2015-03-02
 ---
@@ -32,7 +33,7 @@ a BF lookup is orders of magnitude faster than a disk read (or, more generally, 
 persistent storage),  a BF dramatically reduces query time since the larger data store no longer needs to be queried.
 A prime example of this is the new memory-optimized engine in SQL Server, called
 [Hekaton](http://research-srv.microsoft.com/pubs/218305/p1016-eldawy.pdf), that uses BFs to determine whether a tuple
-is contained in memory or on-disk, since the two sets of tuples are mutually exclusive. 
+is contained in memory or on-disk, since the two sets of tuples are mutually exclusive.
 
 ### Problem with Ranges
 
@@ -41,7 +42,7 @@ filters (e.g., "users whose salary is between $20K-$50K"). To use BFs on a range
 query the BF for each possible value in the range predicate. This can be very inefficient (in our example it's 30K queries)
 and can defeat the purpose of using BFs in the first place. In this paper, the authors describe a new data structure
 called Adaptive Range Filters  to handle range queries in an efficient and compact way. As with BFs, ARFs provide the same
-guarantee that there will never be a false negative, while also aiming to reduce the false positive rate. 
+guarantee that there will never be a false negative, while also aiming to reduce the false positive rate.
 
 ### The ARF Solution
 
@@ -49,7 +50,7 @@ ARFs work by encoding the entire domain of a range into a binary tree where each
 The root node encompasses the entire domain of the ARF tree. The children of a node split that node's range in half. Because
 each node splits its range exactly in half, the actual ranges do not need to be stored in memory, but rather can be computed
 as the tree is traversed. In fact, all that needs to be stored is information about the shape of the tree. For a given node,
-there are four possible scenarios: 
+there are four possible scenarios:
 
 1. Both of its children are leaf nodes
 2. The left child is a leaf node, and the right is an intermediate node
@@ -68,7 +69,7 @@ lookups needed for a BF. Furthermore, ARFs are also designed to return which ran
 true/false for the entire range. In our example query, if the ARF responds with the ranges 12-15K and 18-22K, the system knows that
 there are no users outside this range, so values outside of these ranges can be safely ignored in the underlying data store, thereby
 potentially significantly reducing the amount of data that must be accessed to answer the original query. Because for many queries
-the system is bottlenecked by reading data from disk, this can be a significant optimization. 
+the system is bottlenecked by reading data from disk, this can be a significant optimization.
 
 ### Adaption to Query Workload
 
@@ -77,7 +78,7 @@ BFs, when the data store is updated you also update the BF in order to maintain 
 dataset, but they are not tuned to a particular query workload. ARFs, on the other hand, adaptively restructure as queries are given
 (even without any changes in the data) in order to focus more tree bits to cover the queries in the current workload, since more bits
 for a given range reduces the amount of false positives of queries in that range. The adaptive algorithm works by learning from false
-positives. Below is an example of the sequence of operations for adapting the ARF to the current query workload: 
+positives. Below is an example of the sequence of operations for adapting the ARF to the current query workload:
 
 1. Issue query to ARF for range R
 2. ARF returns true for subranges R1, R2, and R3
@@ -99,4 +100,4 @@ was deleted may never actually be queried, in which case those bits in the ARF c
 
 In summary, the ARF provides a BF-like interface for range queries, while also adapting to changing workload conditions in order to minimize
 false positives within the given space constraints. BFs are a key element of many current distributed systems that offer key-based lookups,
-including NoSQL systems like [Apache Cassandra](http://cassandra.apache.org) as well as distributed storage systems such as [Google BigTable](http://static.googleusercontent.com/media/research.google.com/en/us/archive/bigtable-osdi06.pdf). As new and current systems expand to support richer query features, in particular the support for range queries, ARFs will likely be a key element in making such queries efficient. 
+including NoSQL systems like [Apache Cassandra](http://cassandra.apache.org) as well as distributed storage systems such as [Google BigTable](http://static.googleusercontent.com/media/research.google.com/en/us/archive/bigtable-osdi06.pdf). As new and current systems expand to support richer query features, in particular the support for range queries, ARFs will likely be a key element in making such queries efficient.
