@@ -101,3 +101,5 @@ was deleted may never actually be queried, in which case those bits in the ARF c
 In summary, the ARF provides a BF-like interface for range queries, while also adapting to changing workload conditions in order to minimize
 false positives within the given space constraints. BFs are a key element of many current distributed systems that offer key-based lookups,
 including NoSQL systems like [Apache Cassandra](http://cassandra.apache.org) as well as distributed storage systems such as [Google BigTable](http://static.googleusercontent.com/media/research.google.com/en/us/archive/bigtable-osdi06.pdf). As new and current systems expand to support richer query features, in particular the support for range queries, ARFs will likely be a key element in making such queries efficient.
+
+If you get excited about such technology and live in NY, we'd love to [hear from you](blog@actioniq.co).
