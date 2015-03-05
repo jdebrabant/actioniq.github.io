@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Adaptive Range Filter (ARF)"
+title: "ARF: Avoiding a Trip to Siberia (with Databases)"
 author: nitay_joffe
 published: true
 date: 2015-03-02
