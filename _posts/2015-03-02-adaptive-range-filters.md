@@ -10,7 +10,7 @@ At ActionIQ, we love data. With our company being founded on a core of databases
 its no wonder our water cooler chats are more likely to be about query optimization, shuffle algorithms,
 and partitioning techniques than weather. We also actively follow popular conferences and research coming
 from academia, and like to highlight particularly interesting work. In this post, we’ll cover a
-[paper](http://www.vldb.org/pvldb/vol6/p1714-kossmann.pdf) from VLDB 2014 by Karolina Alexiou, Donald Kossmann, and Per-Ake Larson about a new data structure called
+[paper](http://www.vldb.org/pvldb/vol6/p1714-kossmann.pdf) from VLDB 2014 by Karolina Alexiou, Donald Kossmann, and Per-Ake Larson, about a new data structure called
 an Adaptive Range Filter (ARF) that extends the basic idea of Bloom Filters (BF) to range queries. We'll give
 a summary and overview of this paper as well as any requisite knowledge regarding BFs.
 
