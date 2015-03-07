@@ -61,28 +61,21 @@ body {
 
   .posts{
     background-color:rgba(255, 255, 255, 0.6);
+  }
+}
 
-    h1 {
-      font-weight: 600;
-      font-size: 24px;
-      letter-spacing: 1px;
-    }
+.date{
+  font-size:13px;
+  color:#848484;
+  text-transfor: uppercase;
+  font-weight:400;
+  letter-spacing: 1px;
+  a{
+    color:#848484;
+  }
 
-
-    .date{
-      font-size:13px;
-      color:#848484;
-      text-transfor: uppercase;
-      font-weight:400;
-      letter-spacing: 1px;
-      a{
-        color:#848484;
-      }
-
-      a:hover{
-        color:$blue;
-      }
-    }
+  a:hover{
+    color:$blue;
   }
 }
 
@@ -130,7 +123,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 1px;
 
   a {
     color: inherit;
@@ -154,6 +149,7 @@ h4 {
 
 p {
   margin: 15px 0;
+  font-size:1em;
   font-weight:300;
   line-height: 1.5;
 }

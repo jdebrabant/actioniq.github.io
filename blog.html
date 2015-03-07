@@ -14,14 +14,14 @@ permalink: /blog/
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="date">
-        {{ post.date | date: "%B %e, %Y" }} {% if author %} by <a href="{{ author.web }}" target="_blank">{{ author.name }}</a> {% endif %}
+        {% if author %} <a href="{{ author.web }}" target="_blank">{{ author.name }}</a> {% endif %}&mdash; {{ post.date | date: "%B %e, %Y" }}
       </div>
 
       <div class="entry">
-        {{ post.content | truncatewords:40}}
+        {{ post.content | truncatewords:87}}
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <!--<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>-->
     </article>
   {% endfor %}
 </div>
