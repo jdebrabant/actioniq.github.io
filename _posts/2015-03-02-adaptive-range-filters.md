@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Adaptive Range Filter (ARF)"
+title: "ARF: Avoiding a Trip to Siberia (with Databases)"
 author: nitay_joffe
 published: true
 date: 2015-03-02
@@ -10,7 +10,7 @@ At ActionIQ, we love data. With our company being founded on a core of databases
 its no wonder our water cooler chats are more likely to be about query optimization, shuffle algorithms,
 and partitioning techniques than weather. We also actively follow popular conferences and research coming
 from academia, and like to highlight particularly interesting work. In this post, we’ll cover a
-[paper](http://www.vldb.org/pvldb/vol6/p1714-kossmann.pdf) from VLDB 2014 about a new data structure called
+[paper](http://www.vldb.org/pvldb/vol6/p1714-kossmann.pdf) from VLDB 2014 by Karolina Alexiou, Donald Kossmann, and Per-Ake Larson, about a new data structure called
 an Adaptive Range Filter (ARF) that extends the basic idea of Bloom Filters (BF) to range queries. We'll give
 a summary and overview of this paper as well as any requisite knowledge regarding BFs.
 
@@ -101,3 +101,5 @@ was deleted may never actually be queried, in which case those bits in the ARF c
 In summary, the ARF provides a BF-like interface for range queries, while also adapting to changing workload conditions in order to minimize
 false positives within the given space constraints. BFs are a key element of many current distributed systems that offer key-based lookups,
 including NoSQL systems like [Apache Cassandra](http://cassandra.apache.org) as well as distributed storage systems such as [Google BigTable](http://static.googleusercontent.com/media/research.google.com/en/us/archive/bigtable-osdi06.pdf). As new and current systems expand to support richer query features, in particular the support for range queries, ARFs will likely be a key element in making such queries efficient.
+
+If you get excited about such technology and live in NY, we'd love to [hear from you](mailto:blog@actioniq.co).
