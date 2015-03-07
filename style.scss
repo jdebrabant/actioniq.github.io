@@ -61,6 +61,27 @@ body {
 
   .posts{
     background-color:rgba(255, 255, 255, 0.6);
+
+    h1 {
+      //font-weight: bold;
+      //font-size: 18px;
+    }
+
+
+    .date{
+      font-size:13px;
+      color:#848484;
+      text-transfor: uppercase;
+      font-weight:400;
+      letter-spacing: 1px;
+      a{
+        color:#848484;
+      }
+
+      a:hover{
+        color:$blue;
+      }
+    }
   }
 }
 

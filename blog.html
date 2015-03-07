@@ -4,11 +4,18 @@ title: Blog
 permalink: /blog/
 ---
 
+
+
 <div class="posts">
   {% for post in site.posts %}
+    {% assign author = site.data.authors[post.author] %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="date">
+        {{ post.date | date: "%B %e, %Y" }} {% if author %} by <a href="{{ author.web }}" target="_blank">{{ author.name }}</a> {% endif %}
+      </div>
 
       <div class="entry">
         {{ post.content | truncatewords:40}}
