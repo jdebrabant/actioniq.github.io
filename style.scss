@@ -145,6 +145,7 @@ h1 {
   font-weight: 600;
   font-size: 24px;
   letter-spacing: 1px;
+  color:#666666;
 
   a {
     color: inherit;
@@ -439,6 +440,18 @@ footer {
   padding: 20px 0;
   //text-align: center;
 
+}
+
+.email {
+  background-size: 40px 40px;
+}
+
+.twitter {
+  background-size: 40px 40px;
+}
+
+.linkedin {
+  background-size: 40px 40px;
 }
 
 @media
