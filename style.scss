@@ -64,6 +64,25 @@ body {
   }
 }
 
+.share-page{
+  text-align: center;
+    color: $blue;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-top:30px;
+    letter-spacing:1px;
+
+    a {
+        font-weight: 700;
+        color: $blue;
+        margin-left: 10px;
+
+        &:hover {
+            border-bottom: 1px dashed #fff;
+        }
+    }
+}
+
 .date{
   font-size:13px;
   color:#848484;
