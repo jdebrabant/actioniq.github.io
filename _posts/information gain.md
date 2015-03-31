@@ -1,3 +1,7 @@
+---
+published: false
+---
+
 
 
 “What we mean by information – the elementary unit of information – is a difference which makes a difference”. (Gregory Bateson, 1972)
