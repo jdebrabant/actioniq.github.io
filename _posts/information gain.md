@@ -7,8 +7,8 @@ published: false
 
 During the past few years, the emergence of new technologies in data infrastructure enabled all types of businesses to access, explore, transform and display their web analytics and customer data. It seems that data is the core of any successful business and everyone is on a push to become a data-driven company.. From healthcare services to e-commerce, businesses start to collect their customer data and measure the impact of every change on customer behavior. However, there is a big difference between data and information. Data is the set of raw, unorganized facts, whereas information is a clean, organized and aggregated version of the data that can directly provide some additional insight to a user. Data is for computers. Informations is for humans. The challenge for businesses thus becomes finding the useful pieces of information from a sea of data. 
 
-Data, if used effectively, provides an objective mechanism to evaluate hypotheses about a decision that needs to be made. In information theory, the effectiveness of knowledge is measured by information gain.In simple terms, information gain measures how much knowing a piece of information helps us in making the desired decision, or a measure to understand what makes a difference.  If we let T be the current set of knowledge, or the training set, then we can model information gain, IG,  in terms of information entropy, H,  and additional information, a, using the following: 
-
+Data, if used effectively, provides an objective mechanism to evaluate hypotheses about a decision that needs to be made. In information theory, the effectiveness of knowledge is measured by information gain.In simple terms, information gain measures how much knowing a piece of information helps us in making the desired decision, or a measure to understand what makes a difference.  If we let T be the current set of knowledge, or the training set, then we can model information gain, IG,  in terms of [information entropy][1], H,  and additional information, a, using the following: 
+[1]:"Google"
 ![alt text](/images/ig.png)
 
 The above formula states that information gain is defined by the difference in ‘information entropy’ when not knowing a versus knowing a. In other words, information gain show us the benefit of knowing a. To clarify this,  lets look at a typical business use case. Imagine that we are a hotel trying to figure out how much cleaning staff are needed to clean all of the rooms in the hotel. We have the following objective and hypothesis: 
@@ -30,7 +30,6 @@ When we design products which enable business users to work with data, we should
 
 This conclusion has an important impact on how products that present a user with information should be designed. On the one hand, it must consider the hypothesis that is being tested, while on the other it must also consider the data itself. Unfortunately, the information gain from a presentation of data is not known a priori,  so no formulaic approach to such a problem exists. Instead, a product must integrate both the backend information about the data, with the frontend information about the interface, while also providing users the ability to change and adapt the current presentation of data in order to test their current hypothesis. Only by factoring in all three of these variables can a product be flexible enough to present the user with enough information to test a range of hypotheses across an ever-changing set of data. 
 
-[^1]:Information entropy  is the amount of uncertainty about the truthfulness of what we are trying to predict, or a hypothesis. 
 
 
 
