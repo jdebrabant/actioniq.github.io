@@ -2,7 +2,8 @@
 published: false
 ---
 
-> “What we mean by information – the elementary unit of information – is a difference which makes a difference”. (Gregory Bateson, 1972)
+
+“What we mean by information – the elementary unit of information – is a difference which makes a difference”. (Gregory Bateson, 1972)
 
 During the past few years, the emergence of new technologies in data infrastructure enabled all types of businesses to access, explore, transform and display their web analytics and customer data. It seems that data is the core of any successful business and everyone is on a push to become a data-driven company.. From healthcare services to e-commerce, businesses start to collect their customer data and measure the impact of every change on customer behavior. However, there is a big difference between data and information. Data is the set of raw, unorganized facts, whereas information is a clean, organized and aggregated version of the data that can directly provide some additional insight to a user. Data is for computers. Informations is for humans. The challenge for businesses thus becomes finding the useful pieces of information from a sea of data. 
 
@@ -27,4 +28,17 @@ In Graph 1B,  we show the same comparison, but this time we break down the avera
 
 When we design products which enable business users to work with data, we should keep in mind that transforming rows and columns of data into different graphical representations is not necessarily useful. In other words,, it is possible to present data in different forms without adding any additional information.  From this, it might seem that picking the best report to test a hypothesis is a task better-suited to the business user. While this is true to some extent, realizing which report contains more information is not obvious and can also depend on the data itself. For example, consider Graph 2A and 2B,  taking the same hypothesis and  data variables from above. In this case, because of a different variance in the data,  there is no difference in the amount of information we can extract from either of the graphs. 
 
-This conclusion has an important impact on how products that present a user with information should be designed. On the one hand, it must consider the hypothesis that is being tested, while on the other it must also consider the data itself. Unfortunately, the information gain from a presentation of data is not known a priori,  so no formulaic approach to such a problem exists. Instead, a product must integrate both the backend information about the data, with the frontend information about the interface, while also providing users the ability to change and adapt the current presentation of data in order to test their current hypothesis. Only by factoring in all three of these variables can a product be flexible enough to present the user with enough information to test a range of hypotheses across an ever-changing set of data.
+This conclusion has an important impact on how products that present a user with information should be designed. On the one hand, it must consider the hypothesis that is being tested, while on the other it must also consider the data itself. Unfortunately, the information gain from a presentation of data is not known a priori,  so no formulaic approach to such a problem exists. Instead, a product must integrate both the backend information about the data, with the frontend information about the interface, while also providing users the ability to change and adapt the current presentation of data in order to test their current hypothesis. Only by factoring in all three of these variables can a product be flexible enough to present the user with enough information to test a range of hypotheses across an ever-changing set of data. 
+
+[^1]:Information entropy  is the amount of uncertainty about the truthfulness of what we are trying to predict, or a hypothesis. 
+
+
+
+
+
+
+
+
+
+
+
