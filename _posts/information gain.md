@@ -30,7 +30,7 @@ When we design products which enable business users to work with data, we should
 
 This conclusion has an important impact on how products that present a user with information should be designed. On the one hand, it must consider the hypothesis that is being tested, while on the other it must also consider the data itself. Unfortunately, the information gain from a presentation of data is not known a priori,  so no formulaic approach to such a problem exists. Instead, a product must integrate both the backend information about the data, with the frontend information about the interface, while also providing users the ability to change and adapt the current presentation of data in order to test their current hypothesis. Only by factoring in all three of these variables can a product be flexible enough to present the user with enough information to test a range of hypotheses across an ever-changing set of data. 
 
-<sup>1</sup> <small>Information entropy  is the amount of uncertainty about the truthfulness of what we are trying to predict, or a hypothesis.</small> 
+<sup>1</sup> ###### Information entropy  is the amount of uncertainty about the truthfulness of what we are trying to predict, or a hypothesis.
 
 
 
