@@ -1,6 +1,6 @@
 ---
 layout: post
-title: " The big data high horse or (why most big data projects fail?)"
+title: "The big data high horse or (why most big data projects fail?)"
 author: raschin_fatemi
 published: true
 date: 2015-04-01
