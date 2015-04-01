@@ -2,7 +2,7 @@
 layout: post
 title: "Information Gain"
 author: raschin_fatemi
-published: false
+published: true
 date: 2015-04-01
 ---
 
