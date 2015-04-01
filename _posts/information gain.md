@@ -1,5 +1,9 @@
 ---
+layout: post
+title: "Information Gain"
+author: raschin_fatemi
 published: false
+date: 2015-04-01
 ---
 
 
