@@ -1,6 +1,6 @@
 ---
 layout: post
-title: " Why most big data projects fail? It's the information, stupid!"
+title: " Big data high horse or why most big data projects fail?"
 author: raschin_fatemi
 published: true
 date: 2015-04-01
