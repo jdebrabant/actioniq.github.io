@@ -23,7 +23,7 @@ Hypothesis: We have too few cleaning staff to meet our goal.
 
 To test our hypothesis we have access to rows of data showing the the number of rooms, the staffing size, and the average time of cleaning room. The challenge is to find a data variable which is the best predictor for the truthfulness of our hypothesis. For example, Graph 1A shows the comparison of average time to clean a room with the number of cleaning staff. This graph represents our additional information, a. Unfortunately, the information gain from a is insufficient to test our hypothesis. Thus, in this case, while the data is available, the way the data has been organized into information is insufficient to test our hypothesis. 
 
-![alt text](/images/blog-post-graphs-01.png)
+![alt text](/images/blog-post-g-1a.png)
 
 In Graph 1B,  we show the same comparison, but this time we break down the average time by hour. This time the report shows us a clue: the number of staff is short during checkout time (between 10am-12pm) but we have more than enough staff from 3pm-7pm. The information gain from 1B allows us to come to the conclusion that the problem was not the number of cleaning staff, but rather their distribution throughout the day. Thus, we can conclude that our original hypothesis was incorrect. In this case, the information gain from 1B was greater than the information gain from 1A.  
 
