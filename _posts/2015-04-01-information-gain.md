@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Information Gain"
+title: "Interface Design and Information Gain"
 author: raschin_fatemi
 published: true
 date: 2015-04-01
