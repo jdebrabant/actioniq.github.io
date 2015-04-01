@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The big data high horse
+title: "The big data high horse"
 author: raschin_fatemi
 published: true
 date: 2015-04-01
