@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The big data high horse"
+title: "The big data high horse or (why most big data projects fail?)"
 author: raschin_fatemi
 published: true
 date: 2015-04-01
@@ -8,6 +8,8 @@ date: 2015-04-01
 
 
 “What we mean by information – the elementary unit of information – is a difference which makes a difference”. (Gregory Bateson, 1972)
+
+Most big data projects focus on the data - how much, where from, how fast, how fresh. Unfortunately this is missing the point. Very frequently enterprises will embark on projects to load Terabytes of data only to discover 12 months later that they are not getting any value. At the core of it, the confusion lies in the difference between data and information.
 
 During the past few years, the emergence of new technologies in data infrastructure enabled all types of businesses to access, explore, transform and display their web analytics and customer data. It seems that data is the core of any successful business and everyone is on a push to become a data-driven company. From healthcare services to e-commerce, businesses start to collect their customer data and measure the impact of every change on customer behavior. However, there is a big difference between data and information. Data is the set of raw, unorganized facts, whereas information is a clean, organized and aggregated version of the data that can directly provide some additional insight to a user. Data is for computers. Informations is for humans. The challenge for businesses thus becomes finding the useful pieces of information from a sea of data. 
 
