@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Interface Design and Information Gain"
+title: " why most big data projects fail? It's the information, stupid!"
 author: raschin_fatemi
 published: true
 date: 2015-04-01
