@@ -7,7 +7,7 @@ date: 2015-04-01
 ---
 
 
-“What2 we mean by information – the elementary unit of information – is a difference which makes a difference”. (Gregory Bateson, 1972)
+“What we mean by information – the elementary unit of information – is a difference which makes a difference”. (Gregory Bateson, 1972)
 
 Most big data projects focus on the data - how much, where from, how fast, how fresh. Unfortunately this is missing the point. Very frequently enterprises will embark on projects to load Terabytes of data only to discover 12 months later that they are not getting any value. At the core of it, the confusion lies in the difference between data and information.
 
