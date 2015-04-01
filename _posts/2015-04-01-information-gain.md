@@ -28,7 +28,7 @@ To test our hypothesis we have access to rows of data showing the the number of 
 In Graph 1B,  we show the same comparison, but this time we break down the average time by hour. This time the report shows us a clue: the number of staff is short during checkout time (between 10am-12pm) but we have more than enough staff from 3pm-7pm. The information gain from 1B allows us to come to the conclusion that the problem was not the number of cleaning staff, but rather their distribution throughout the day. Thus, we can conclude that our original hypothesis was incorrect. In this case, the information gain from 1B was greater than the information gain from 1A.  
 
 
-
+![alt text](/images/g-1b.png)
 
 When we design products which enable business users to work with data, we should keep in mind that transforming rows and columns of data into different graphical representations is not necessarily useful. In other words,, it is possible to present data in different forms without adding any additional information.  From this, it might seem that picking the best report to test a hypothesis is a task better-suited to the business user. While this is true to some extent, realizing which report contains more information is not obvious and can also depend on the data itself. For example, consider Graph 2A and 2B,  taking the same hypothesis and  data variables from above. In this case, because of a different variance in the data,  there is no difference in the amount of information we can extract from either of the graphs. 
 
